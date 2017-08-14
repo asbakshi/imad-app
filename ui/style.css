@@ -1,4 +1,4 @@
-body {
+.body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
@@ -15,8 +15,15 @@ body {
 .bold {
     font-weight: bold;
 }
-
 .img-medium {
     height: 200px;
 }
-
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    color: #525151;
+    font-family: sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+}
