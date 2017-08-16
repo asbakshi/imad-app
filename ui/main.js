@@ -1,12 +1,9 @@
-console.log('Loaded!');
-
-var img = document.getElementById('madi');
-var moveMargin = 0;
-function MoveRight(){
-    moveMargin = moveMargin + 5;
-    img.style.marginLeft = moveMargin +'px';
+//couner code
+var button=document.getElementById("counter");
+button.onclick = function(){
+ 
+ 
+ counter= counter+1;
+ var span= document.getElementById("connt");
+ span.InnerHTML = counter.toString();
 }
-img.onclick = function()
-{
-    var interval = setInterval(MoveRight, 30);
-};
